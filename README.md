@@ -1,1 +1,4 @@
 # A-movie-recommendation-system
+
+Using Spark, design and implement a Recommender System to predict ratings of movies. Base your utility matrix on the Movie Lens 20M dataset. Use the Products of Factors technique for your system and optimize the loss function with ALS. You are free to add techniques and features to your system. You are also free to use other optimization techniques. To evaluate your solution, you can use the shell script provided in MovieLens to generate 5-folds and utilize them to cross-validate your solution. Alternatively, you can use the utilities in Spark to generate the folds. Compute RMSE, MSE, and MAP. (Hint: you can use MLlib's RegressionMetrics and RankingMetrics to do this easily in Spark).
+Add one user to the database (yourself), by adding recommendations to a few (20~25) movies. Then use the recommendation system you built to output the predicted ranking for 5 movies you did not evaluate.
